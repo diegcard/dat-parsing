@@ -1,0 +1,20 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text diff=python
+
+# CSV files
+*.csv text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Windows-specific files
+*.bat text eol=crlf
+
+# Unix-specific files
+*.sh text eol=lf
